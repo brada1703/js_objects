@@ -9,7 +9,7 @@
 *   Within the object, you most commonly see `key:value` pairs
     *   Key is a string, called a property name
     *   Value can be anything: number, string, boolean, null, etc. It can even be a function.
-*   In the example below, `series` is the object. `name`, `genre`, and `released` are keys while `Alf`, `Sitcom`, and 1986 are vales.
+*   In the example below, `series` is the object. `name`, `genre`, and `released` are keys while `Alf`, `Sitcom`, and 1986 are values.
 
 ```
 let series = {
@@ -20,7 +20,8 @@ let series = {
     getInfo: function() {
         console.log(`The best TV show from ${series.released} is        
             ${series.name}.);
-    }
+    },
+    characters: ['Alf','Max','Andrea','Benji']
 }
 ```
 
