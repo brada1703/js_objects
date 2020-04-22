@@ -1,4 +1,4 @@
-## 1. Javascript objects.
+## Javascript objects
 
 **_What are they?_**
 
